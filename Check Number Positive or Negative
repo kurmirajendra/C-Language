@@ -1,0 +1,15 @@
+#include<stdio.h>
+int main()
+{
+    int num;
+    printf("Enter a integer ");
+    scanf("%d",&num);
+    if(num>0)
+        printf("\n%d it is a positive no   ",num);
+
+     else if (num<0)
+        printf("\n%d it is a negative  no ",num);
+
+     else
+        printf("\nNo is zero, it is neither positive nor negative");
+}
